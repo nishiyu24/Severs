@@ -1,5 +1,5 @@
 // 状態変数
-let isRunning = true;
+let isRunning = false;
 
 // 表示を更新する関数
 function updateStatus() {
@@ -18,7 +18,6 @@ updateStatus();
 
 // 5秒後にisRunningの状態を変更して表示を更新
 setTimeout(() => {
-  isRunning = false; // 停止中に設定
   updateStatus(); // 表示更新
 }, 5000);
 
