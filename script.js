@@ -19,7 +19,7 @@ updateStatus();
 // 5秒後にisRunningの状態を変更して表示を更新
 setTimeout(() => {
   updateStatus(); // 表示更新
-}, 5000);
+}, 2000);
 
 // ポップアップ表示機能
 const viewTextFileButton = document.getElementById('viewTextFileButton');
